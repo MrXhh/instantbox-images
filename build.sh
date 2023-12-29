@@ -5,9 +5,9 @@ SHOULD_PUSH=true
 [[ -z "${DOCKER_PASSWORD}" ]] && SHOULD_PUSH=false
 
 echo "Downloading latest ttyd"
-rm "./ttyd_linux.x86_64" >/dev/null 2&>1
-wget -q "https://github.com/tsl0922/ttyd/releases/download/${TTYD_VERSION:-1.4.2}/ttyd_linux.x86_64"
-if [[ ! -f "./ttyd_linux.x86_64" ]]; then
+rm "./ttyd_linux.aarch64" >/dev/null 2&>1
+wget -q "https://github.com/tsl0922/ttyd/releases/download/${TTYD_VERSION:-1.4.4}/ttyd_linux.aarch64"
+if [[ ! -f "./ttyd_linux.aarch64" ]]; then
   echo "Failed to download ttyd"
   exit 1
 fi

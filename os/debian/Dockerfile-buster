@@ -12,11 +12,11 @@ RUN apt-get update -qq && apt-get install -qq -y python3-pip --no-install-recomm
   && rm -rf /var/lib/apt/lists/* \
   && pip3 install freeFile
 
-COPY ./ttyd_linux.x86_64 /usr/bin/
+COPY ./ttyd_linux.aarch64 /usr/bin/
 
-RUN chmod +x /usr/bin/ttyd_linux.x86_64
+RUN chmod +x /usr/bin/ttyd_linux.aarch64
 
-CMD ["ttyd_linux.x86_64", "-p", "1588", "bash"]
+CMD ["ttyd_linux.aarch64", "-p", "1588", "bash"]
 
 EXPOSE 1588
 

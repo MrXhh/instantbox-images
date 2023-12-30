@@ -21,6 +21,18 @@
         "osCode": "instantbox/ubuntu:20.04"
       },
       {
+        "label": "21.04",
+        "osCode": "instantbox/ubuntu:21.04"
+      },
+      {
+        "label": "22.04",
+        "osCode": "instantbox/ubuntu:22.04"
+      },
+      {
+        "label": "23.04",
+        "osCode": "instantbox/ubuntu:23.04"
+      },
+      {
         "label": "latest",
         "osCode": "instantbox/ubuntu:latest"
       }

@@ -36,10 +36,6 @@
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/centos.png",
     "subList": [
       {
-        "label": "6.10",
-        "osCode": "instantbox/centos:6.10"
-      },
-      {
         "label": "7",
         "osCode": "instantbox/centos:7"
       },

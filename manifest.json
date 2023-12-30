@@ -25,10 +25,6 @@
         "osCode": "instantbox/ubuntu:22.04"
       },
       {
-        "label": "24.04",
-        "osCode": "instantbox/ubuntu:24.04"
-      },
-      {
         "label": "latest",
         "osCode": "instantbox/ubuntu:latest"
       }

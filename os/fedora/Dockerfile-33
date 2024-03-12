@@ -1,16 +1,12 @@
-FROM debian:latest
+FROM fedora:33
 
 LABEL \
   org.label-schema.schema-version="1.0" \
-  org.label-schema.name="instantbox/debian:latest" \
+  org.label-schema.name="instantbox/fedora:33" \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
   maintainer="Instantbox Team <team@instantbox.org>"
 
 WORKDIR /home
-
-RUN apt-get update -qq && apt-get install -qq -y pipx --no-install-recommends \
-  && rm -rf /var/lib/apt/lists/* \
-  && pipx install freeFile
 
 COPY ./ttyd_linux.aarch64 /usr/bin/
 

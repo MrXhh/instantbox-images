@@ -34,6 +34,8 @@ for IMAGE_NAME in $(cat manifest.json | grep osCode\":\ \"instantbox | grep -o '
     --build-arg VCS_REF="$(git rev-parse --short HEAD)" \
     -t "$IMAGE_NAME" \
     -f "$DOCKERFILE" \
+    --insecure \
+    --push \
     . \
     || exit 1
   

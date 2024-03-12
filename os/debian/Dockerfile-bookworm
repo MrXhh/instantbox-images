@@ -1,8 +1,8 @@
-FROM debian:latest
+FROM debian:bookworm
 
 LABEL \
   org.label-schema.schema-version="1.0" \
-  org.label-schema.name="instantbox/debian:latest" \
+  org.label-schema.name="instantbox/debian:bookworm" \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
   maintainer="Instantbox Team <team@instantbox.org>"
 

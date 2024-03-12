@@ -36,6 +36,10 @@
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/centos.png",
     "subList": [
       {
+        "label": "6.10",
+        "osCode": "instantbox/centos:6.10"
+      },
+      {
         "label": "7",
         "osCode": "instantbox/centos:7"
       },
@@ -50,10 +54,25 @@
     ]
   },
   {
+    "label": "Arch Linux",
+    "value": "arch",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/arch.png",
+    "subList": [
+      {
+        "label": "latest",
+        "osCode": "instantbox/arch:latest"
+      }
+    ]
+  },
+  {
     "label": "Debian",
     "value": "debian",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/debian.png",
     "subList": [
+      {
+        "label": "jessie",
+        "osCode": "instantbox/debian:jessie"
+      },
       {
         "label": "stretch",
         "osCode": "instantbox/debian:stretch"
@@ -61,14 +80,6 @@
       {
         "label": "buster",
         "osCode": "instantbox/debian:buster"
-      },
-      {
-        "label": "bullseye",
-        "osCode": "instantbox/debian:bullseye"
-      },
-      {
-        "label": "bookworm",
-        "osCode": "instantbox/debian:bookworm"
       },
       {
         "label": "latest",
@@ -82,64 +93,12 @@
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/fedora.png",
     "subList": [
       {
-        "label": "26",
-        "osCode": "instantbox/fedora:26"
-      },
-      {
-        "label": "27",
-        "osCode": "instantbox/fedora:27"
-      },
-      {
-        "label": "28",
-        "osCode": "instantbox/fedora:28"
-      },
-      {
-        "label": "29",
-        "osCode": "instantbox/fedora:29"
-      },
-      {
         "label": "30",
         "osCode": "instantbox/fedora:30"
       },
       {
         "label": "31",
         "osCode": "instantbox/fedora:31"
-      },
-      {
-        "label": "32",
-        "osCode": "instantbox/fedora:32"
-      },
-      {
-        "label": "33",
-        "osCode": "instantbox/fedora:33"
-      },
-      {
-        "label": "34",
-        "osCode": "instantbox/fedora:34"
-      },
-      {
-        "label": "35",
-        "osCode": "instantbox/fedora:35"
-      },
-      {
-        "label": "36",
-        "osCode": "instantbox/fedora:36"
-      },
-      {
-        "label": "37",
-        "osCode": "instantbox/fedora:37"
-      },
-      {
-        "label": "38",
-        "osCode": "instantbox/fedora:38"
-      },
-      {
-        "label": "39",
-        "osCode": "instantbox/fedora:39"
-      },
-      {
-        "label": "40",
-        "osCode": "instantbox/fedora:40"
       },
       {
         "label": "latest",

@@ -1,8 +1,8 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 LABEL \
   org.label-schema.schema-version="1.0" \
-  org.label-schema.name="instantbox/ubuntu:20.04" \
+  org.label-schema.name="instantbox/ubuntu:22.04" \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
   maintainer="Instantbox Team <team@instantbox.org>"
 

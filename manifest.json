@@ -60,7 +60,7 @@
     "subList": [
       {
         "label": "latest",
-        "osCode": "instantbox/arch:latest"
+        "osCode": "instantbox/arch:latest|linux/amd64"
       }
     ]
   },

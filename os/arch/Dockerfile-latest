@@ -1,4 +1,4 @@
-FROM archlinux/base:latest
+FROM archlinux:latest
 
 LABEL \
   org.label-schema.schema-version="1.0" \
@@ -8,11 +8,13 @@ LABEL \
 
 WORKDIR /home
 
-COPY ./ttyd_linux.x86_64 /usr/bin/
+ARG TARGETARCH
 
-RUN chmod +x /usr/bin/ttyd_linux.x86_64
+COPY ./ttyd_linux.$TARGETARCH /usr/bin/
 
-CMD ["ttyd_linux.x86_64", "-p", "1588", "bash"]
+RUN chmod +x /usr/bin/ttyd_linux.$TARGETARCH
+
+CMD ["ttyd_linux.$TARGETARCH", "-p", "1588", "bash"]
 
 EXPOSE 1588
 

@@ -1,8 +1,8 @@
-FROM fedora:31
+FROM fedora:37
 
 LABEL \
   org.label-schema.schema-version="1.0" \
-  org.label-schema.name="instantbox/fedora:31" \
+  org.label-schema.name="instantbox/fedora:37" \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
   maintainer="Instantbox Team <team@instantbox.org>"
 

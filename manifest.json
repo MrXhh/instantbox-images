@@ -94,15 +94,51 @@
     "subList": [
       {
         "label": "30",
-        "osCode": "instantbox/fedora:30"
+        "osCode": "instantbox/fedora:30|linux/amd64,linux/arm64,linux/s390x"
       },
       {
         "label": "31",
-        "osCode": "instantbox/fedora:31"
+        "osCode": "instantbox/fedora:31|linux/amd64,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "32",
+        "osCode": "instantbox/fedora:32|linux/amd64,linux/arm/v7,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "33",
+        "osCode": "instantbox/fedora:33|linux/amd64,linux/arm/v7,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "34",
+        "osCode": "instantbox/fedora:34|linux/amd64,linux/arm/v7,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "35",
+        "osCode": "instantbox/fedora:35|linux/amd64,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "36",
+        "osCode": "instantbox/fedora:36|linux/amd64,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "37",
+        "osCode": "instantbox/fedora:37|linux/amd64,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "38",
+        "osCode": "instantbox/fedora:38|linux/amd64,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "39",
+        "osCode": "instantbox/fedora:39|linux/amd64,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "40",
+        "osCode": "instantbox/fedora:40|linux/amd64,linux/arm64,linux/s390x"
       },
       {
         "label": "latest",
-        "osCode": "instantbox/fedora:latest"
+        "osCode": "instantbox/fedora:latest|linux/amd64,linux/arm64,linux/s390x"
       }
     ]
   },

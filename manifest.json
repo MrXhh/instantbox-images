@@ -40,20 +40,16 @@
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/centos.png",
     "subList": [
       {
-        "label": "6.10",
-        "osCode": "instantbox/centos:6.10"
-      },
-      {
         "label": "7",
-        "osCode": "instantbox/centos:7"
+        "osCode": "instantbox/centos:7|linux/386,linux/amd64,linux/arm/v7,linux/arm64"
       },
       {
         "label": "8",
-        "osCode": "instantbox/centos:8"
+        "osCode": "instantbox/centos:8|linux/amd64,linux/arm64"
       },
       {
         "label": "latest",
-        "osCode": "instantbox/centos:latest"
+        "osCode": "instantbox/centos:latest|linux/amd64,linux/arm64"
       }
     ]
   },

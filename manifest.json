@@ -113,7 +113,7 @@
     "subList": [
       {
         "label": "latest",
-        "osCode": "instantbox/alpine:latest"
+        "osCode": "instantbox/alpine:latest|linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/s390x"
       }
     ]
   }

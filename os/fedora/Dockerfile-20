@@ -1,0 +1,25 @@
+FROM fedora:20
+
+LABEL \
+  org.label-schema.schema-version="1.0" \
+  org.label-schema.name="instantbox/fedora:20" \
+  org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
+  maintainer="Instantbox Team <team@instantbox.org>"
+
+WORKDIR /home
+
+ARG TARGETARCH
+
+COPY ./ttyd_linux.$TARGETARCH /usr/bin/
+
+RUN chmod +x /usr/bin/ttyd_linux.$TARGETARCH
+
+CMD ["ttyd_linux.$TARGETARCH", "-p", "1588", "bash"]
+
+EXPOSE 1588
+
+ARG BUILD_DATE
+ARG VCS_REF
+LABEL \
+  org.label-schema.build-date=$BUILD_DATE \
+  org.label-schema.vcs-ref=$VCS_REF

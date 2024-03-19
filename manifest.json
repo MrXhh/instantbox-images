@@ -93,6 +93,46 @@
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/fedora.png",
     "subList": [
       {
+        "label": "20",
+        "osCode": "instantbox/fedora:20|linux/amd64"
+      },
+      {
+        "label": "21",
+        "osCode": "instantbox/fedora:21|linux/amd64"
+      },
+      {
+        "label": "22",
+        "osCode": "instantbox/fedora:22|linux/amd64"
+      },
+      {
+        "label": "23",
+        "osCode": "instantbox/fedora:23|linux/amd64"
+      },
+      {
+        "label": "24",
+        "osCode": "instantbox/fedora:24|linux/amd64"
+      },
+      {
+        "label": "25",
+        "osCode": "instantbox/fedora:25|linux/amd64,linux/arm/v7"
+      },
+      {
+        "label": "26",
+        "osCode": "instantbox/fedora:26|linux/amd64,linux/arm/v7,linux/arm64"
+      },
+      {
+        "label": "27",
+        "osCode": "instantbox/fedora:27|linux/amd64,linux/arm/v7,linux/arm64"
+      },
+      {
+        "label": "28",
+        "osCode": "instantbox/fedora:28|linux/amd64,linux/arm/v7,linux/arm64,linux/s390x"
+      },
+      {
+        "label": "29",
+        "osCode": "instantbox/fedora:29|linux/amd64,linux/arm/v7,linux/arm64,linux/s390x"
+      },
+      {
         "label": "30",
         "osCode": "instantbox/fedora:30|linux/amd64,linux/arm64,linux/s390x"
       },

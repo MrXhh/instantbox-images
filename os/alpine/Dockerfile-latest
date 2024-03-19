@@ -10,11 +10,11 @@ WORKDIR /home
 
 ARG TARGETARCH
 
-COPY ./ttyd_linux.$TARGETARCH /usr/bin/
+COPY ./ttyd_linux.$TARGETARCH /usr/bin/ttyd_linux
 
-RUN chmod +x /usr/bin/ttyd_linux.$TARGETARCH
+RUN chmod +x /usr/bin/ttyd_linux
 
-CMD ["ttyd_linux.$TARGETARCH", "-p", "1588", "sh"]
+CMD ["ttyd_linux", "-p", "1588", "sh"]
 
 EXPOSE 1588
 

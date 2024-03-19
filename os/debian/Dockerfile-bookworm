@@ -1,21 +1,16 @@
-FROM debian:jessie
+FROM debian:bookworm
 
 LABEL \
   org.label-schema.schema-version="1.0" \
-  org.label-schema.name="instantbox/debian:jessie" \
+  org.label-schema.name="instantbox/debian:bookworm" \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
   maintainer="Instantbox Team <team@instantbox.org>"
 
 WORKDIR /home
 
-# source
-RUN sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list \
-  && sed -i s/security.debian.org/archive.debian.org/g /etc/apt/sources.list \
-  && sed -i s/stretch-updates/stretch/g /etc/apt/sources.list
-
-RUN apt-get update -qq && apt-get install -qq -y python3-pip python3-setuptools --no-install-recommends \
+RUN apt-get update -qq && apt-get install -qq -y pipx --no-install-recommends \
   && rm -rf /var/lib/apt/lists/* \
-  && pip3 install freeFile
+  && pipx install freeFile
 
 ARG TARGETARCH
 

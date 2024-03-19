@@ -71,19 +71,31 @@
     "subList": [
       {
         "label": "jessie",
-        "osCode": "instantbox/debian:jessie"
+        "osCode": "instantbox/debian:jessie|linux/386,linux/amd64,linux/arm/v5,linux/arm/v7"
       },
       {
         "label": "stretch",
-        "osCode": "instantbox/debian:stretch"
+        "osCode": "instantbox/debian:stretch|linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64"
       },
       {
         "label": "buster",
-        "osCode": "instantbox/debian:buster"
+        "osCode": "instantbox/debian:buster|linux/386,linux/amd64,linux/arm/v7,linux/arm64"
+      },
+      {
+        "label": "bullseye",
+        "osCode": "instantbox/debian:bullseye|linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/s390x"
+      },
+      {
+        "label": "bookworm",
+        "osCode": "instantbox/debian:bookworm|linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/s390x"
+      },
+      {
+        "label": "trixie",
+        "osCode": "instantbox/debian:trixie|linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/s390x"
       },
       {
         "label": "latest",
-        "osCode": "instantbox/debian:latest"
+        "osCode": "instantbox/debian:latest|linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/s390x"
       }
     ]
   },
